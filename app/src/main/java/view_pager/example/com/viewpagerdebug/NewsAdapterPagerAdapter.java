@@ -19,6 +19,8 @@ public class NewsAdapterPagerAdapter extends FragmentStatePagerAdapter {
         mFragments.add(ArticleFragment.newInstance(1));
         mFragments.add(ArticleFragment.newInstance(2));
         mFragments.add(ArticleFragment.newInstance(3));
+        mFragments.add(ArticleFragment.newInstance(4));
+        mFragments.add(ArticleFragment.newInstance(5));
     }
 
     @Override
